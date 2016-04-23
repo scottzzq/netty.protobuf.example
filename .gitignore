@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+netty.protobuf.common/target
+netty.protobuf.client/target
+netty.protobuf.proxyserver/target
+netty.protobuf.server/target
