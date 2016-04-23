@@ -42,12 +42,4 @@ public class AppTest extends TestCase {
 			System.out.println("LEVEL_"+ level + "_IP_0=10.126.90.15$"+ port++);
 		}
 	}
-	
-	public void test2() throws IOException{
-		Properties pro = new Properties();
-		FileInputStream in = new FileInputStream("D:\\Users\\58\\workspace\\netty.protobuf.example\\netty.protobuf.proxyserver\\src\\main\\resources\\server.conf");
-		pro.load(in);
-		System.out.println(pro.get("LEVEL_NUM"));
-		in.close();
-	}
 }
